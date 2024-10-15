@@ -1,9 +1,9 @@
-'use strict';
 
-module.exports = {
+
+export default {
   languageOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'commonjs',
+    sourceType: 'module',
     globals: {
       BigInt: true,
       AbortController: true,
